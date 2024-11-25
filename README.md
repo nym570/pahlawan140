@@ -45,6 +45,8 @@ $ npm run build
 ```
 
 ## Struktur Proyek
+
+```shell
 pahlawan140/
 │
 ├── dist/                 # Folder build untuk file hasil build produksi
@@ -71,3 +73,4 @@ pahlawan140/
 ├── tailwind.config.js    # Konfigurasi untuk Tailwind CSS
 ├── vercel.json           # Konfigurasi untuk Vercel (platform hosting)
 └── vite.config.js        # Konfigurasi untuk Vite (build tool)
+```
