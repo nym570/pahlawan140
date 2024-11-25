@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root, [data-theme] {
+  background-color: #ffffff !important;
+  font-family: "Inter", sans-serif !important;
+}
+
+@media (min-width: 1000px) {
+  nav header {
+    max-width: 80vw !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    /* min-width: 800px !important; */
+  }
+}
+
+.swiper {
+  position: static !important;
+}
+
+/* .swiper-slide {
+  height: 100% !important;
+} */
+
+.swiperWrapper {
+  position: relative !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: #0b588f;
+  /* padding: 5px; */
+  border-radius: 100%;
+  color: #ffffff;
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.swiper-button-prev {
+  left: -15px !important;
+  margin-top: -28px;
+}
+
+.swiper-button-next {
+  right: -30px !important;
+  margin-top: -14px;
+}
+
+.swiper-button-prev::after {
+  margin-right: 3px;
+}
+
+.swiper-button-next::after {
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 18px !important;
+  font-weight: 800 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #0b588f !important;
+}
+
+:where(.css-dev-only-do-not-override-p8b6i).ant-carousel .slick-prev::after, :where(.css-dev-only-do-not-override-p8b6i).ant-carousel .slick-next::after {
+  width: 12px;
+  height: 12px;
+}
+
+.header {
+  color: #0b588f !important;
+  font-family: "Inter", sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 20px !important;
+}
+
+.sub-header {
+  color: #0b588f !important;
+  font-family: "Assistant", sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+}
+
+.title-card {
+  color: #0b588f !important;
+  font-family: "Assistant", sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 12px !important;
+}
+
+.title-card-lg {
+  color: #0b588f !important;
+  font-family: "Assistant", sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+}
+
+.text-content-card {
+  color: #5A5858 !important;
+  font-family: "Assistant", sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+}
+
+.transition-transform {
+  transition: transform 0.5s ease-in-out;
+}
+
+.scale-100 {
+  transform: scale(1);
+}
+
+.scale-90 {
+  transform: scale(0.6);
+}
