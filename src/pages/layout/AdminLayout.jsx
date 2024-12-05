@@ -55,8 +55,8 @@ function AdminLayout({ children }) {
           icon: <MonitorHeartRoundedIcon />,
         },
         {
-          text: "ZI RB",
-          to: "/zirb_adm",
+          text: "SDI",
+          to: "/sdi_adm",
           icon: <BusinessIcon />,
         },
         

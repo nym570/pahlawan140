@@ -15,13 +15,13 @@ import BerhasilMagang from "./pages/berhasilmagang";
 import RuangBaca from "./pages/ruangbaca";
 import TemanLuki from "./pages/temanluki";
 import Aduan from "./pages/aduan";
-import ZIRB from "./pages/zi-rb";
+import SDI from "./pages/sdi";
 import Login from "./pages/login";
 import DashboardAdmin from "./pages/admin/dashboard";
 import MenuAdmin from "./pages/admin/menu";
 import BerandaAdmin from "./pages/admin/beranda";
 import TemanLukiAdmin from "./pages/admin/temanluki";
-import ZIRBAdmin from "./pages/admin/zirb";
+import SDIAdmin from "./pages/admin/sdi";
 import BeritaAdmin from "./pages/admin/berita";
 import RuangBacaAdmin from "./pages/admin/ruangbaca";
 import MyOfficeAdmin from "./pages/admin/myoffice";
@@ -63,7 +63,7 @@ function App() {
           <Route path="/menu" element={<RoleBasedRoute allowedRoles="admin"><MenuAdmin /></RoleBasedRoute>} />
           <Route path="/beranda_adm" element={<RoleBasedRoute allowedRoles="admin"><BerandaAdmin /></RoleBasedRoute>} />
           <Route path="/temanluki_adm" element={<RoleBasedRoute allowedRoles="admin"><TemanLukiAdmin /></RoleBasedRoute>} />
-          <Route path="/zirb_adm" element={<RoleBasedRoute allowedRoles="admin"><ZIRBAdmin /></RoleBasedRoute>} />
+          <Route path="/sdi_adm" element={<RoleBasedRoute allowedRoles="admin"><SDIAdmin /></RoleBasedRoute>} />
           <Route path="/berita_adm" element={<RoleBasedRoute allowedRoles="admin"><BeritaAdmin /></RoleBasedRoute>} />
           <Route path="/ruangbaca_adm" element={<RoleBasedRoute allowedRoles="admin"><RuangBacaAdmin /></RoleBasedRoute>} />
           <Route path="/myoffice_adm" element={<RoleBasedRoute allowedRoles="admin"><MyOfficeAdmin /></RoleBasedRoute>} />
@@ -97,10 +97,10 @@ function App() {
             }
           />
           <Route
-            path="/zi-rb"
+            path="/sdi"
             element={
               <>
-                <ZIRB />
+                <SDI />
                 <BackToTop />
               </>
             }

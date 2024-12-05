@@ -49,7 +49,7 @@ const columns = [
 //   },
 // ];
 
-const ZIRB = () => {
+const SDI = () => {
   const [modalActionTL, setModalActionTL] = useState(null);
   const [selectedItemTL, setSelectedItemTL] = useState(null);
   
@@ -238,12 +238,12 @@ const ZIRB = () => {
     <AdminLayout>
       <div className="bg-grayCustom min-h-screen p-10 mt-0 mx-auto">
         <h6 className="text-sm font-semibold text-pdarkblue">
-          Admin > Pahlawan140 > ZI RB
+          Admin > Pahlawan140 > SDI
         </h6>
         <div className="mt-5 flex flex-col md:flex-row bg-white rounded-2xl p-10 justify-between space-y-5 md:space-y-0">
           <div className="w-full flex justify-center items-center flex-col">
             <h2 className="text-lg font-semibold text-pdarkblue mb-4">
-              Pengaturan ZI RB
+              Pengaturan SDI
             </h2>
 
             <NextUIButton
@@ -270,8 +270,8 @@ const ZIRB = () => {
                   <>
                     <ModalHeader className="flex flex-col items-center font-semibold text-pdarkblue">
                       {modalActionTL === "view"
-                        ? "Detail ZI RB"
-                        : "Form ZI RB"}
+                        ? "Detail SDI"
+                        : "Form SDI"}
                     </ModalHeader>
                     <Form form = {formTL} name="basic" onFinish={modalActionTL === "add" 
                         ? storeList
@@ -382,4 +382,4 @@ const ZIRB = () => {
   );
 };
 
-export default ZIRB;
+export default SDI;

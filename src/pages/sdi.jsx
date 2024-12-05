@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import NavbarCustom from "../components/NavbarCustom";
-import ZIRB from "../components/ZIRB";
+import SDI from "../components/SDI";
 import Footer from "../components/Footer/Footer";
 
 const Adu = () => {
@@ -18,7 +18,7 @@ const Adu = () => {
       <NavbarCustom />
       <div className="px-[10%]">
         <div data-aos="fade-up">
-          <ZIRB />
+          <SDI />
         </div>
       </div>
       <Footer />
